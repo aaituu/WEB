@@ -45,44 +45,56 @@
  
     <!-- Step 5 -->
     <table border="1">
-        <tr>
-            <th>Subject</th>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        <tr>
-            <td>Software Design</td>
-            <td>monday</td>
-            <td>14:00</td>
-        </tr>
-        <tr>
-            <td>Analysis of algorithms</td>
-            <td>thuesday</td>
-            <td>15:00</td>
-        </tr>
-        <tr>
-            <td>Web(Frontend)</td>
-            <td>wednesday</td>
-            <td>15:00</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Software Design</td>
+                <td>monday</td>
+                <td>14:00</td>
+            </tr>
+            <tr>
+                <td>Analysis of algorithms</td>
+                <td>thuesday</td>
+                <td>15:00</td>
+            </tr>
+            <tr>
+                <td>Web(Frontend)</td>
+                <td>wednesday</td>
+                <td>15:00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">Aitu!</td>
+            </tr>
+        </tfoot>
     </table><br><br>
+
 
 
     <!-- Step 6(optional) -->
      <table border="2">
+        <thead>
+            <th>Menu</th>
+            <th>Main content</th>
+        </thead>
         <tr>
-            <td>
-                <h3>menu</h3>
-                <ul>
+            <td align="center">
+                <ul style="list-style-type: none; padding: 20px;">
                     <li><a href="#">home</a></li>
                     <li><a href="#">about us</a></li>
                     <li><a href="#">profile</a></li>
                 </ul>
                 
             </td>
-            <td valign = "top">
-                <h3>main content</h3>
-                <p>this is the main page, there will be all content</p>
+            <td align="center" >
+                <p style="width: 80%;">this is the main page, there will be all content. Like text, images and so on!</p>
             </td>
         </tr>
      </table>
@@ -106,12 +118,12 @@
         <input type="text" id="name" name="name"><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email" required><br><br>
 
         <label for="color">Favorite Color:</label>
         <input type="color" id="color" name="color"><br><br>
 
-        <input type="submit" value="Submit">
+        <input type="button" value="Submit">
     </form>
 </body>
 </html>
