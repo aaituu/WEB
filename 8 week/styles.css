@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.port-footer {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 0; /* убрал скругления, чтобы ровно прижимался */
+}

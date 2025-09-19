@@ -1,0 +1,86 @@
+body {
+  background-color: rgba(236, 236, 236, 0.651);
+  margin: 0 auto;
+}
+
+
+/* -----------------header-------------------- */
+header {
+  background-color: hsl(0, 0%, 47%);
+}
+
+.head-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.head-link ul {
+  display: flex;
+  margin-right: 20px;
+  justify-content: flex-end;
+  list-style: none;
+
+}
+
+.head-link li {
+  padding: 5px;
+}
+
+.head-box a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+/* --------------------main------------- */
+main {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+h2 {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#colorBox {
+  width: 150px;
+  height: 150px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 150px;
+  font-weight: bold;
+}
+
+#taskList{
+  cursor: pointer;
+}
+
+
+
+/* ------------footer ------------*/
+.port-footer {
+  grid-area: footer;
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
